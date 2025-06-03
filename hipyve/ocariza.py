@@ -9,6 +9,7 @@ def jaira_main_menu():
         print("1. Basic Information")
         print("2. Goals")
         print("3. Fun Facts")
+        print("4 - Anipan Comment")
         print("0. Exit")
 
         try:
@@ -28,6 +29,9 @@ def jaira_main_menu():
 
             case 3:
                 show_fun_facts()
+
+            case 4: 
+                anipan_comments()
 
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
@@ -54,4 +58,10 @@ def show_fun_facts():
     print("- I enjoy skincare routines as self-care.")
     print("- Patch, my dog, is my coding buddy!")
     print("- I secretly enjoy debugging—it's like solving a mystery.")
+
+def anipan_comments():
+    print(Fore.LIGHTMAGENTA_EX + "Anipan Comment")
+    print("pogiako123")
+    print("You're very good at programming!")
+
 

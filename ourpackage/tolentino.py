@@ -38,9 +38,16 @@ def tolentino_menu():
                 show_quotes()
             case 3:
                 exit_program()
+            case 4:
+                anipan_comments()
                 break
             case _:
                 print("\nInvalid input! Please try again.\n")
                 input("Press Enter to continue...")
+
+def anipan_comments():
+    print("Anipan Comment")
+    print("pogiako123")
+    print("You're very good at programming!")
 
 tolentino_menu()
