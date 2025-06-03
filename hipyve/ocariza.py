@@ -33,6 +33,9 @@ def jaira_main_menu():
             case 4: 
                 anipan_comments()
 
+            case 5:
+                bartolome_comments()
+                
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -64,4 +67,7 @@ def anipan_comments():
     print("pogiako123")
     print("You're very good at programming!")
 
+def bartolome_comments():
+    print(Fore.LIGHTMAGENTA_EX + "Bartolome's Comment")
+    print("Your dog is so cute!")
 
