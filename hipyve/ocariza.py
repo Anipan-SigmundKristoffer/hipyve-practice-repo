@@ -32,6 +32,9 @@ def jaira_main_menu():
 
             case 4: 
                 anipan_comments()
+                
+            case 5: 
+                tolentino_comments()
 
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
@@ -63,5 +66,9 @@ def anipan_comments():
     print(Fore.LIGHTMAGENTA_EX + "Anipan Comment")
     print("pogiako123")
     print("You're very good at programming!")
+
+def tolentino_comments():
+    print(Fore.LIGHTMAGENTA_EX + "Tolentino Comment")
+    print("Great!")
 
 
